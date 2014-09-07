@@ -13,3 +13,5 @@
 (global-set-key (kbd "M-/") 'hippie-expand)
 (global-set-key (kbd "M-s") 'sr-speedbar-toggle)
 (global-set-key (kbd "RET") 'newline-and-indent)
+(global-set-key (kbd "<escape>") 'god-mode)
+(global-set-key (kbd "C-c h") 'helm-mini)

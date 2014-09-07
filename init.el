@@ -2,6 +2,7 @@
 (add-to-list 'load-path "~/.emacs.d")
 (add-to-list 'load-path "~/.emacs.d/projectile")
 (add-to-list 'load-path "~/.emacs.d/evil")
+(add-to-list 'load-path "~/.emacs.d/helm")
 (load "global-keybindings")
 (load "default-modes")
 (load "theme")

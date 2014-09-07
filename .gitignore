@@ -3,5 +3,8 @@
 *.eld
 # Packaging
 .cask
-
+bookmarks
+bookmarks/*
+backup
+backup/*
 *\~
