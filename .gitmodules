@@ -1,0 +1,9 @@
+[submodule "magit"]
+	path = magit
+	url = git@github.com:magit/magit.git
+[submodule "git-modes"]
+	path = git-modes
+	url = git@github.com:magit/git-modes.git
+[submodule "helm"]
+	path = helm
+	url = git@github.com:emacs-helm/helm.git
