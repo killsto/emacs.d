@@ -10,3 +10,6 @@
 [submodule "expand-region.el"]
 	path = expand-region.el
 	url = git@github.com:magnars/expand-region.el.git
+[submodule "expand-region"]
+	path = expand-region
+	url = git@github.com:magnars/expand-region.el.git

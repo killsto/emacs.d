@@ -15,3 +15,5 @@
 (global-set-key (kbd "RET") 'newline-and-indent)
 (global-set-key (kbd "<escape>") 'god-mode)
 (global-set-key (kbd "C-c h") 'helm-mini)
+(global-set-key (kbd "M-'") 'er/expand-region)
+(global-set-key (kbd "M-;") 'er/contract-region)

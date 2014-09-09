@@ -30,3 +30,4 @@
 (require 'god-mode)
 (require 'helm-config)
   (helm-mode)
+(require 'expand-region)
