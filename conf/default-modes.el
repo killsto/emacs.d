@@ -31,3 +31,7 @@
 (require 'helm-config)
   (helm-mode)
 (require 'expand-region)
+(require 'ggtags)
+  (ggtags-mode)
+;(require 'company)
+;(global-company-mode)

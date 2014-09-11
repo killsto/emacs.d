@@ -5,6 +5,7 @@
 (add-to-list 'load-path "~/.emacs.d/helm")
 (add-to-list 'load-path "~/.emacs.d/git-modes")
 (add-to-list 'load-path "~/.emacs.d/magit")
+(add-to-list 'load-path "~/.emacs.d/expand-region")
 (load "global-keybindings")
 (load "default-modes")
 (load "theme")
