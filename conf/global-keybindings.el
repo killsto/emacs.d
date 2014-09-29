@@ -14,8 +14,8 @@
 (global-set-key (kbd "M-/") 'hippie-expand)
 (global-set-key (kbd "M-s") 'sr-speedbar-toggle)
 (global-set-key (kbd "RET") 'newline-and-indent)
-(global-set-key (kbd "<escape>") 'god-mode)
-
-
 (global-set-key (kbd "M-;") 'er/contract-region)
 (global-set-key (kbd "M-<tab>") 'company-complete)
+(global-set-key (kbd "M-j") 'javadoc-lookup)
+(global-set-key (kbd "C-z") 'undo)
+
