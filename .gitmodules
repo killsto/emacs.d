@@ -7,9 +7,9 @@
 [submodule "helm"]
 	path = helm
 	url = git@github.com:emacs-helm/helm.git
-[submodule "expand-region.el"]
-	path = expand-region.el
-	url = git@github.com:magnars/expand-region.el.git
-[submodule "expand-region"]
-	path = expand-region
-	url = git@github.com:magnars/expand-region.el.git
+[submodule "projectile"]
+	path = projectile
+	url = git@github.com:bbatsov/projectile.git
+[submodule "evil"]
+	path = evil
+	url = git@github.com:emacsmirror/evil.git
