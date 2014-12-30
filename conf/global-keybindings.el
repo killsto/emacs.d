@@ -18,4 +18,4 @@
 (global-set-key (kbd "M-<tab>") 'company-complete)
 (global-set-key (kbd "M-j") 'javadoc-lookup)
 (global-set-key (kbd "C-z") 'undo)
-
+(global-set-key (kbd "M-S") 'minimap-toggle)

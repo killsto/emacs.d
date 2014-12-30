@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: importlog
+# key: importlog
+# --
+import org.apache.log4j.Logger;

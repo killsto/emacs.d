@@ -31,7 +31,7 @@
   )
 
 (setq auto-save-file-name-transforms
-      `((".*"  ,auto-save-folder t) ))
+      `((".*"  "~/.emacs.d/backup/" t)))
 (require 'helm-config)
   (helm-mode)
 (require 'expand-region)
@@ -44,3 +44,9 @@
 (setq tab-width 4)
 (defvaralias 'java-basic-offset 'tab-width)
 
+(require 'yasnippet)
+   (define-key yas-minor-mode-map (kbd "<tab>") nil)
+   (define-key yas-minor-mode-map (kbd "TAB") nil)
+   (define-key yas-minor-mode-map (kbd "C-<tab>") 'yas-expand)
+(add-hook 'emacs-lisp-mode-hook '(lambda ()
+                                   (yas-minor-mode)))
