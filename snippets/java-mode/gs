@@ -1,7 +1,11 @@
 # -*- mode: snippet -*-
-# name: set
-# key: set
+# name: gs
+# key: gs
 # --
 public void set${1:$(upcase-initials yas-text)}($2 $1) {
     this.$1 = $1;
+}
+
+public $2 get${1:$(upcase-initials yas-text)}() {
+    return $1;
 }

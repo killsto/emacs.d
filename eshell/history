@@ -35,3 +35,17 @@ mvn test -Dtest=UserInfoActionUTest -o
 mvn test -Dtest=UserInfoActionUTest -o
 ssh ome-as1.campus.ksu.edu
 vagrant ssh
+grep -r java
+grep jaa
+grep java
+find-file java
+ls
+grep
+grep --help
+grep java
+grep . java
+grep -help
+grep --help
+grep -r java
+ls >> #<buffer *scratch*>
+ls -l >> #<buffer *scratch*>

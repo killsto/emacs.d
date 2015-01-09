@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: declare log
-# key: dlog
+# name: log
+# key: log
 # --
-private static final Logger LOG = Logger.getLogger(${1:`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`}.class);
+LOG.${1:debug}("$0");

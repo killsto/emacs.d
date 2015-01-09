@@ -25,9 +25,6 @@
 
 (require 'eclimd)
 
-
-
-
 (add-hook 'java-mode-hook
           '(lambda ()
              (yas-minor-mode)))

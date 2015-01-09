@@ -1,7 +1,6 @@
 (menu-bar-mode 0)
 (tool-bar-mode 0)
 (scroll-bar-mode 0)
-(global-linum-mode 1)
 (require 'package)
    (add-to-list 'package-archives
       '("melpa" . "http://melpa.milkbox.net/packages/") t)
@@ -18,8 +17,7 @@
    (projectile-global-mode 1)
 (require 'evil)
 (require 'ldap-mode)
-(require 'rainbow-identifiers)
-(add-hook 'prog-mode-hook 'rainbow-identifiers-mode)
+
 
 (defvar auto-save-folder "~/.emacs.d/backup/")
 (setq backup-directory-alist `((".*" . ,auto-save-folder))
@@ -29,6 +27,9 @@
   kept-new-versions 20   ; how many of the newest versions to keep
   kept-old-versions 2    ; and how many of the old
   )
+
+(setq split-height-threshold 0)
+(setq split-width-threshold nil)
 
 (setq auto-save-file-name-transforms
       `((".*"  "~/.emacs.d/backup/" t)))
@@ -50,3 +51,12 @@
    (define-key yas-minor-mode-map (kbd "C-<tab>") 'yas-expand)
 (add-hook 'emacs-lisp-mode-hook '(lambda ()
                                    (yas-minor-mode)))
+
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
