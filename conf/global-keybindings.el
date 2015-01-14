@@ -30,3 +30,4 @@
 (global-set-key (kbd "C-z") 'undo)
 (global-set-key (kbd "M-S") 'minimap-toggle)
 
+(global-set-key (kbd "C-x m") 'imenu)

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: logd
+# key: logd
+# --
+LOG.debug("$0");

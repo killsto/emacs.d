@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: logi
+# key: logi
+# --
+LOG.info("$0");
