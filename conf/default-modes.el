@@ -63,3 +63,5 @@
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 
 (setq default-cursor-type '(bar . 1))
+
+(add-hook 'overwrite-mode-hook (lambda () (if overwrite-mode (setq cursor-type 'box) (setq cursor-type '(bar . 1)))))
