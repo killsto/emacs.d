@@ -46,9 +46,6 @@
 (defvaralias 'java-basic-offset 'tab-width)
 
 (require 'yasnippet)
-   (define-key yas-minor-mode-map (kbd "<tab>") nil)
-   (define-key yas-minor-mode-map (kbd "TAB") nil)
-   (define-key yas-minor-mode-map (kbd "C-<tab>") 'yas-expand)
    (yas-reload-all)
 (add-hook 'emacs-lisp-mode-hook '(lambda ()
                                    (yas-minor-mode)))
@@ -65,3 +62,6 @@
 (setq default-cursor-type '(bar . 1))
 
 (add-hook 'overwrite-mode-hook (lambda () (if overwrite-mode (setq cursor-type 'box) (setq cursor-type '(bar . 1)))))
+(key-chord-mode 1)
+(evil-mode 1)
+
